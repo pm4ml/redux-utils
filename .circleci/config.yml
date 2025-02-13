@@ -14,11 +14,11 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: yarn install --production  # Only install production dependencies
+          command: yarn install
       - run:
           name: Set Up npm Credentials
           command: |
-            echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+            echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > ~/.npmrc
       - run:
           name: Publish to npm
           command: |
