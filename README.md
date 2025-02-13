@@ -1,8 +1,8 @@
-# @modusbox/redux-utils
+# @pm4ml/redux-utils
 
 A collection of Typescript utilities for the frontend apps.
 
-To install the module run `yarn add @modusbox/redux-utils`.
+To install the module run `yarn add @pm4ml/redux-utils`.
 
 Documentation is available at [https://modusintegration.github.io/redux-utils](https://modusintegration.github.io/redux-utils)
 

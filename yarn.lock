@@ -1161,13 +1161,6 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@modusbox/ts-utils@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@modusbox/ts-utils/-/ts-utils-0.0.3.tgz#8dd31001a3cb5eed08ff1cc42b37cc5796675b25"
-  integrity sha512-VcxVMMMmTpccy59uMw3GCf/vLeohRbm7cswoSu4WwksEDmjt+nNu1mf1mHDzf1HrSXTQnN/dLRh/r7ZlOkNTXw==
-  dependencies:
-    lodash "^4.17.21"
-
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -1188,6 +1181,13 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
+
+"@pm4ml/ts-utils@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@pm4ml/ts-utils/-/ts-utils-0.0.6.tgz#3727b2d6ccc5f665aa5b2a62e6f78bbef014de59"
+  integrity sha512-LmvaiY5xnmPzh/qTPFpSvINaSKBUBOa2smI0WJ8Z3ig9Z2gldPLO0SKaj6jAFjs5PM1sdk+AwZ6lOnq5gzv7HA==
+  dependencies:
+    lodash "^4.17.21"
 
 "@redux-saga/core@^1.1.3":
   version "1.1.3"
@@ -3228,8 +3228,6 @@ getpass@^0.1.1:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
-  dependencies:
-    assert-plus "^1.0.0"
 
 glob-parent@^5.0.0, glob-parent@^5.1.0:
   version "5.1.2"

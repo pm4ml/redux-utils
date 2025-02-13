@@ -1,4 +1,4 @@
-import sleep from '@modusbox/ts-utils/lib/async/sleep';
+import sleep from '@pm4ml/ts-utils/lib/async/sleep';
 import {
   Method,
   MockCall,
