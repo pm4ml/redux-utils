@@ -1,15 +1,18 @@
 {
-  "name": "@modusbox/redux-utils",
-  "version": "0.0.11",
+  "name": "@pm4ml/redux-utils",
+  "version": "0.0.13",
   "main": "lib/index.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": "Ivan Annovazzi <ivan@modusbox.com>",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "@modusbox/ts-utils": "^0.0.3",
+    "@pm4ml/ts-utils": "^0.0.6",
     "axios": "^0.21.1",
     "lodash": "^4.17.21",
     "object-hash": "^2.1.1",
