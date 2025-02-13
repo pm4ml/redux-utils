@@ -1,6 +1,6 @@
 {
   "name": "@pm4ml/redux-utils",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "author": "Ivan Annovazzi <ivan@modusbox.com>",
